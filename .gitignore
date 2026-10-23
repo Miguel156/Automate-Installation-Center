@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+central.manifest
+build_manifest.json
+catalogo.json
+catalogo.*.json
+preferencias.json
+aparencia.json
+logs/
+icones/
+*.log
+*.backup-*.py
+backup-*/
+idioma.json 
+central_instalacao_visual - Copia.py
+etapa 2 tradução bckp.py
+Gerar_Debug.bat
+Gerar_EXE.bat
+Iniciar_Fontes.bat
+Iniciar.bat
+LEIA-ME.txt

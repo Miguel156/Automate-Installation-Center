@@ -1,0 +1,16 @@
+AVISOS DE TERCEIROS — CENTRAL DE INSTALAÇÃO
+
+Este aplicativo inclui partes do programa 7-Zip: 7z.exe e 7z.dll, sem modificações.
+7-Zip é de Igor Pavlov e usa GNU LGPL, com componentes BSD e restrição unRAR
+conforme os textos originais em third_party_licenses/7zip/License.txt.
+Fontes e informações oficiais: https://www.7-zip.org/ e https://www.7-zip.org/download.html
+Consulte a versão exata registrada em build_manifest.json e preserve estes avisos
+em toda distribuição. Não é permitido usar o código unRAR para recriar um compactador RAR.
+A Central chama o motor como processo separado; não modifica os binários.
+
+Python, Pillow e o bootloader PyInstaller são componentes independentes. Os textos
+coletados das respectivas instalações acompanham third_party_licenses.
+A licença do código da Central é separada e ainda deve ser definida pelo autor.
+Instaladores de outros aplicativos e dados pessoais não fazem parte desta distribuição.
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05

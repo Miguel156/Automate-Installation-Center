@@ -1,0 +1,232 @@
+[
+  {
+    "id": "7zip",
+    "name": "7-Zip",
+    "filename_regex": "7z\\d+(?:[-.]\\d+)?(?:-(?:x64|x86|arm64))?\\.exe",
+    "product_regex": "7[- ]?zip",
+    "publisher_regex": "Igor Pavlov|7[- ]?Zip",
+    "arguments": "/S",
+    "source": "https://www.7-zip.org/faq.html",
+    "note": ""
+  },
+  {
+    "id": "winrar",
+    "name": "WinRAR",
+    "filename_regex": "winrar(?:-x64)?[-_]?\\d+[a-z-]*\\.exe",
+    "product_regex": "WinRAR",
+    "publisher_regex": "win\\.rar|RARLAB|Alexander Roshal|Eugene Roshal",
+    "arguments": "-s",
+    "source": "https://documentation.help/WinRAR/HELPHints.htm",
+    "note": ""
+  },
+  {
+    "id": "alcohol",
+    "name": "Alcohol 120%",
+    "filename_regex": "Alcohol120(?:_retail)?[\\w. -]*\\.exe",
+    "product_regex": "Alcohol.*120",
+    "publisher_regex": "Alcohol|Alcohol Soft",
+    "arguments": null,
+    "source": "http://forum.alcohol-soft.com/index.php?/topic/29624-silent-install/",
+    "note": "Não confirmado para o instalador retail informado. Não reutilizar parâmetros de repacks ou versões antigas."
+  },
+  {
+    "id": "artcraft",
+    "name": "ArtCraft",
+    "filename_regex": "ArtCraft_[\\d.]+_x64-setup\\.exe",
+    "product_regex": "ArtCraft",
+    "publisher_regex": "ArtCraft|Learning Machines",
+    "arguments": null,
+    "source": "https://github.com/storytold/artcraft",
+    "note": "Não confundir ArtCraft app com ArtCraft Launcher. Argumento deste EXE ainda não confirmado."
+  },
+  {
+    "id": "duckstation",
+    "name": "DuckStation",
+    "filename_regex": "duckstation-windows-(?:x64|arm64)(?:-[a-z0-9]+)?-installer\\.exe",
+    "product_regex": "DuckStation",
+    "publisher_regex": "Stenzek|Connor McLaughlin",
+    "arguments": null,
+    "source": "https://github.com/stenzek/duckstation",
+    "note": "Pendente confirmar o comando do instalador atual; não inferir pelo formato dos instaladores antigos."
+  },
+  {
+    "id": "pcsx2",
+    "name": "PCSX2",
+    "filename_regex": "pcsx2-v[\\d.]+-windows-(?:x64|arm64)-installer\\.exe",
+    "product_regex": "PCSX2",
+    "publisher_regex": "PCSX2",
+    "arguments": "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+    "source": "https://www.manageengine.com/products/desktop-central/software-installation/silent_install_PCSX2-(x64)-(2.8.2).html",
+    "note": "Comando documentado para 2.8.2; validar novas famílias de instalador."
+  },
+  {
+    "id": "battlenet",
+    "name": "Battle.net",
+    "filename_regex": "Battle\\.net[-_]Setup\\.exe",
+    "product_regex": "Battle\\.net",
+    "publisher_regex": "Blizzard",
+    "arguments": null,
+    "source": "https://github.com/microsoft/winget-pkgs/issues/251452",
+    "note": "Há relatos de interação para destino. Sem promessa de instalação totalmente silenciosa."
+  },
+  {
+    "id": "ea",
+    "name": "EA App",
+    "filename_regex": "EAappInstaller\\.exe",
+    "product_regex": "EA app|EA Desktop|EA.*Installer",
+    "publisher_regex": "Electronic Arts",
+    "arguments": "/S",
+    "source": "https://push.chocolatey.org/packages/ea-app/13.796.0.6309",
+    "note": "Perfil baseado na receita do Chocolatey; testar o bootstrapper local."
+  },
+  {
+    "id": "epic",
+    "name": "Epic Games Launcher",
+    "filename_regex": "EpicInstaller-[\\w.-]+\\.exe",
+    "product_regex": "Epic Games|Epic.*Launcher",
+    "publisher_regex": "Epic Games",
+    "arguments": null,
+    "source": "https://github.com/ScoopInstaller/Games/blob/master/bucket/epic-games-launcher.json",
+    "note": "EXE informado não é o MSI publicado na receita consultada. Não passar comandos de msiexec a esse EXE por suposição."
+  },
+  {
+    "id": "gog",
+    "name": "GOG Galaxy",
+    "filename_regex": "(?:GOG_Galaxy_[\\d.]+|setup_galaxy_[\\d.]+)\\.exe",
+    "product_regex": "GOG.*GALAXY|GALAXY.*Setup",
+    "publisher_regex": "GOG",
+    "arguments": "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+    "source": "https://community.chocolatey.org/packages/goggalaxy",
+    "note": "Confirmar que o arquivo é o instalador Galaxy correspondente, não instalador de jogo."
+  },
+  {
+    "id": "hydra",
+    "name": "Hydra Installer",
+    "filename_regex": "hydra-installer\\.exe",
+    "product_regex": "Hydra",
+    "publisher_regex": "Hydra",
+    "arguments": null,
+    "source": "https://github.com/hydralauncher/hydra-installer",
+    "note": "É um baixador que abre outro setup. Não herdar /S do instalador final."
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "filename_regex": "SteamSetup\\.exe",
+    "product_regex": "Steam",
+    "publisher_regex": "Valve",
+    "arguments": "/S",
+    "source": "https://github.com/microsoft/winget-pkgs/blob/master/manifests/v/Valve/Steam/2.10.91.91/Valve.Steam.installer.yaml",
+    "note": "Instalador inicial; downloads/atualizações e login posteriores são etapas separadas."
+  },
+  {
+    "id": "ubisoft",
+    "name": "Ubisoft Connect",
+    "filename_regex": "UbisoftConnectInstaller\\.exe",
+    "product_regex": "Ubisoft.*Connect|Ubisoft.*Installer",
+    "publisher_regex": "Ubisoft",
+    "arguments": "/S",
+    "source": "https://silentinstalls.com/ubisoft-connect-silent-install",
+    "note": "Receita de implantação externa; validar o arquivo local."
+  },
+  {
+    "id": "chrome",
+    "name": "Google Chrome",
+    "filename_regex": "(?:ChromeSetup|ChromeStandaloneSetup(?:64)?)\\.exe",
+    "product_regex": "Google.*(?:Chrome|Update)|Chrome",
+    "publisher_regex": "Google",
+    "arguments": "/silent /install",
+    "source": "https://silentinstallhq.com/google-chrome-exe-silent-install-how-to-guide/",
+    "note": "ChromeSetup pode baixar arquivos da internet."
+  },
+  {
+    "id": "firefox",
+    "name": "Mozilla Firefox — instalador de download",
+    "filename_regex": "Firefox Installer(?:[ _-]\\d+)?\\.exe",
+    "product_regex": "Firefox",
+    "publisher_regex": "Mozilla",
+    "arguments": null,
+    "source": "https://firefox-source-docs.mozilla.org/browser/installer/windows/installer/FullConfig.html",
+    "note": "/S é documentado para o instalador COMPLETO; não confirmado para este stub. Preferir Firefox Setup <versão>.exe ou MSI para automação."
+  },
+  {
+    "id": "operagx",
+    "name": "Opera GX",
+    "filename_regex": "(?:OperaGXSetup|Opera_GX_[\\d.]+_Setup(?:_x64)?)\\.exe",
+    "product_regex": "Opera",
+    "publisher_regex": "Opera",
+    "arguments": "/silent /launchopera=0 /setdefaultbrowser=0",
+    "source": "https://silentinstallhq.com/opera-gx-browser-install-and-uninstall-powershell/",
+    "note": "Não força navegador padrão nem escopo allusers. Pode precisar de rede."
+  },
+  {
+    "id": "tor",
+    "name": "Tor Browser",
+    "filename_regex": "tor-browser-windows-(?:x86_64|i686)-portable-[\\w.-]+\\.exe",
+    "product_regex": "Tor Browser|Tor.*Browser",
+    "publisher_regex": "Tor Project",
+    "arguments": "/S",
+    "source": "https://silentinstall.info/apps/tor-browser/",
+    "note": "Receita externa para a família portable. É preciso conferir o destino e o resultado da extração/instalação."
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "filename_regex": "Apollo-[\\w.-]+\\.exe",
+    "product_regex": "Apollo",
+    "publisher_regex": "ClassicOldSong|Apollo",
+    "arguments": null,
+    "source": "https://github.com/ClassicOldSong/Apollo",
+    "note": "Não atribuir parâmetros do Sunshine ao fork sem confirmar o pacote."
+  },
+  {
+    "id": "iht",
+    "name": "Moonlight Internet Hosting Tool",
+    "filename_regex": "InternetHostingToolSetup-v[\\d.]+\\.exe",
+    "product_regex": "Internet.*Hosting|Moonlight.*Hosting",
+    "publisher_regex": "Moonlight|Cameron Gutman",
+    "arguments": null,
+    "source": "https://github.com/moonlight-stream/Internet-Hosting-Tool",
+    "note": "O EXE bundle precisa de confirmação própria; não confundir com o MSI interno."
+  },
+  {
+    "id": "moonlight",
+    "name": "Moonlight",
+    "filename_regex": "MoonlightSetup-[\\d.]+\\.exe",
+    "product_regex": "Moonlight",
+    "publisher_regex": "Moonlight|Cameron Gutman",
+    "arguments": "/install /quiet /norestart",
+    "source": "https://silentinstallhq.com/moonlight-silent-install-how-to-guide/",
+    "note": "Receita do bundle EXE. Testar também instalação dos pré-requisitos."
+  },
+  {
+    "id": "fdm",
+    "name": "Free Download Manager",
+    "filename_regex": "fdm_(?:x64|x86)_setup\\.exe",
+    "product_regex": "Free Download Manager",
+    "publisher_regex": "Softdeluxe|FreeDownloadManager|Free Download Manager",
+    "arguments": "/SP- /VERYSILENT /SUPPRESSMSGBOXES /NORESTART",
+    "source": "https://www.manageengine.com/products/desktop-central/software-installation/silent_install_Free-Download-Manager-(x64)-(6.29.1.6392).html",
+    "note": ""
+  },
+  {
+    "id": "jre8",
+    "name": "Java 8 JRE",
+    "filename_regex": "jre-8u\\d+-windows-(?:x64|i586)\\.exe",
+    "product_regex": "Java|JRE",
+    "publisher_regex": "Oracle",
+    "arguments": "/s",
+    "source": "https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_installer_options.html",
+    "note": "A documentação consultada é para JRE Windows Offline. Não aplica a JDK ou versões anteriores de Java."
+  },
+  {
+    "id": "vlc",
+    "name": "VLC media player",
+    "filename_regex": "vlc-[\\d.]+-win(?:32|64)\\.exe",
+    "product_regex": "VLC|VideoLAN",
+    "publisher_regex": "VideoLAN",
+    "arguments": "/S",
+    "source": "https://mailman.videolan.org/pipermail/vlc-commits/2013-December/023115.html",
+    "note": "Feche o VLC antes de atualizar: o modo silencioso pode encerrar instâncias abertas."
+  }
+]
