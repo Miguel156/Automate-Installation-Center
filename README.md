@@ -15,7 +15,7 @@ A graphical tool for Windows that centralizes the installation and extraction of
 
 ## 🚀 How to use
 
-1. Download the `.exe` file from the [Releases](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/releases) section.
+1. Download the `.exe` file from the [Releases](https://github.com/Miguel156/Automate-Installation-Center/releases) section.
 2. Run `CentralInstalacao.exe`. No need to install Python, Pillow, or 7-Zip.
 3. Add your installers and compressed files.
 4. Configure each item (arguments, destination, password, etc.).
@@ -37,7 +37,7 @@ A graphical tool for Windows that centralizes the installation and extraction of
 
 ## 🤝 How to contribute
 
-Contributions are welcome! If you find a bug or have a suggestion, open an [Issue](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/issues).
+Contributions are welcome! If you find a bug or have a suggestion, open an [Issue](https://github.com/Miguel156/Automate-Installation-Center/issues).
 
 ## 📄 License
 
@@ -65,7 +65,7 @@ Uma ferramenta gráfica para Windows que centraliza a instalação e extração 
 
 ## 🚀 Como usar
 
-1. Baixe o arquivo `.exe` na seção [Releases](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/releases).
+1. Baixe o arquivo `.exe` na seção [Releases](https://github.com/Miguel156/Automate-Installation-Center/releases).
 2. Execute o `CentralInstalacao.exe`. Não é necessário instalar Python, Pillow ou 7-Zip.
 3. Adicione seus instaladores e arquivos compactados.
 4. Configure cada item (argumentos, destino, senha, etc.).
@@ -87,7 +87,7 @@ Uma ferramenta gráfica para Windows que centraliza a instalação e extração 
 
 ## 🤝 Como contribuir
 
-Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma sugestão, abra uma [Issue](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/issues).
+Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma sugestão, abra uma [Issue](https://github.com/Miguel156/Automate-Installation-Center/issues).
 
 ## 📄 Licença
 
