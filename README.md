@@ -1,3 +1,55 @@
+#English
+
+# Installation Center
+
+A graphical tool for Windows that centralizes the installation and extraction of programs, automating the repetitive work of unzipping, installing, and creating shortcuts.
+
+## 📦 What does it do?
+
+- **EXE and MSI Installation:** Runs installers with configurable silent installation arguments.
+- **Archive Extraction:** Unzips .zip, .7z, .rar, and other files, with password support.
+- **Installation Profiles:** Automatically identifies known installers and suggests the correct arguments (e.g., 7-Zip, WinRAR, VLC, etc.).
+- **Portable Shortcuts:** Creates desktop and Start menu shortcuts for programs that don't require installation.
+- **Customizable Interface:** Configurable background, buttons, boxes, and text colors. Portuguese and English support.
+- **Catalog Backup:** Allows you to export and import your program list to use on another computer.
+
+## 🚀 How to use
+
+1. Download the `.exe` file from the [Releases](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/releases) section.
+2. Run `CentralInstalacao.exe`. No need to install Python, Pillow, or 7-Zip.
+3. Add your installers and compressed files.
+4. Configure each item (arguments, destination, password, etc.).
+5. Check the desired programs and click "Install Selected".
+
+## ⚠️ Known Limitations
+
+- Archive passwords are stored in **plain text** in the local catalog file. Do not use critical passwords.
+- The tool runs user-selected installers. It **is not an antivirus** and does not verify file security.
+- A recognized profile does not guarantee that a future version of the installer will accept the same arguments. Final responsibility lies with the user.
+- The interface is designed for screens with scaling up to 250%. At higher scales, it maintains maximum size to prevent controls from becoming inaccessible.
+
+## 🛠️ Technologies Used
+
+- **Python 3.10+** with a **Tkinter** graphical interface.
+- **7-Zip** (bundled into the executable) for archive extraction.
+- **Pillow** for loading PNG/JPG icons.
+- **PyInstaller** for packaging into a single Windows executable.
+
+## 🤝 How to contribute
+
+Contributions are welcome! If you find a bug or have a suggestion, open an [Issue](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/issues).
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*This project was developed with the assistance of artificial intelligence.*
+
+
+#Português
+
 # Central de Instalação
 
 Uma ferramenta gráfica para Windows que centraliza a instalação e extração de programas, automatizando o trabalho repetitivo de descompactar, instalar e criar atalhos.
