@@ -41,7 +41,7 @@ Contributions are welcome! If you find a bug or have a suggestion, open an [Issu
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Miguel156/Automate-Installation-Center/blob/main/LICENSE) file for details.
 
 ---
 
@@ -91,7 +91,7 @@ Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma sugestã
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Miguel156/Automate-Installation-Center/blob/main/LICENSE) para mais detalhes.
 
 ---
 
