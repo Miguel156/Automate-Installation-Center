@@ -1,4 +1,7 @@
-#English
+<img width="450" height="400" alt="Captura de tela 2026-10-23 150938" src="https://github.com/user-attachments/assets/07936ee9-aede-4246-8512-828cd532d30d" />
+<img width="450" height="400" alt="Captura de tela 2026-10-23 150442" src="https://github.com/user-attachments/assets/5cf801b1-2ace-4223-86b1-58301068530b" />
+
+# English
 
 # Installation Center
 
@@ -48,7 +51,7 @@ This project is licensed under the MIT License. See the [LICENSE](https://github
 *This project was developed with the assistance of artificial intelligence.*
 
 
-#Português
+# Português
 
 # Central de Instalação
 
